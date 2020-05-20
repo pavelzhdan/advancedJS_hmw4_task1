@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-import checkNumber from '../../index';
+import checkNumber from '../checkNumber';
 
 test('is number', () => {
   const result = checkNumber(18);
