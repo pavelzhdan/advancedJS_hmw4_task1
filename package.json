@@ -1,6 +1,6 @@
 {
   "name": "task1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Homwork4\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dework4",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,9 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "babel-jest": "^25.4.0",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^25.5.1",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
     "eslint": "^6.8.0",
@@ -28,17 +28,25 @@
     "eslint-plugin-import": "^2.20.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^25.4.0",
+    "jest": "^25.5.4",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.9.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "core-js": "^3.6.5"
   },
   "keywords": [
     "task1"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelzhdan/advancedJS_hmw4_task1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pavelzhdan/advancedJS_hmw4_task1/issues"
+  },
+  "homepage": "https://github.com/pavelzhdan/advancedJS_hmw4_task1#readme"
 }

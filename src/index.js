@@ -5,8 +5,7 @@ const test = 'один';
 export default function checkNumber(input) {
   const error = Error('Ошибка, введите числовое значение');
   try {
-    const inputCheck = parseInt(input, 10);
-    if (Number.isNaN(inputCheck)) {
+    if (Number.isNaN(Number(input))) {
       throw error;
     }
     return input;
